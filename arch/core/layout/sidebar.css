@@ -22,19 +22,25 @@ div[class^="scroller_"] {
     background: transparent !important;
 }
 
-/* 3. LOGO CUSTOM (Il pulsante Home in alto a sinistra) */
-/* Nascondiamo l'icona Discord originale */
-div[class^="tutorialContainer_"] div[class^="childWrapper_"] svg {
-    display: none !important;
-}
-/* Inseriamo la nostra icona (Arch/Manjaro) */
-div[class^="tutorialContainer_"] div[class^="childWrapper_"] {
+.tutorialContainer__1f388 .childWrapper__6e9f8 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-image: var(--custom-logo) !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    background-color: transparent !important;
-    border-radius: 0px !important;
+}
+
+.tutorialContainer__1f388 .childWrapper__6e9f8:hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--custom-logo-hover) !important;
+}
+
+.tutorialContainer__1f388 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: var(--custom-logo-hover) !important;
 }
 
 /* 4. Icone Server (Squadrate) */
