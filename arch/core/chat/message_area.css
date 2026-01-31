@@ -1,0 +1,33 @@
+/* CHAT: IRC / LOG STYLE */
+
+/* 1. Rimuovi sfondo messaggi (No Bubbles) */
+div[class^="message_"] {
+    background: transparent !important;
+    border: none !important;
+    padding: 4px 0 !important; /* Compatti */
+}
+
+/* 2. Hover sul messaggio */
+div[class^="message_"]:hover {
+    background-color: rgba(255, 255, 255, 0.02) !important; /* Leggerissimo highlight riga */
+}
+
+/* 3. Menzioni */
+/* Quadrata e con il colore della distro */
+div[class^="mentioned_"] {
+    background-color: rgba(var(--highlight-rgb), 0.1) !important;
+    border-left: 2px solid var(--highlight) !important;
+    border-radius: 0px !important;
+}
+div[class^="mentioned_"]::before {
+    display: none !important; /* Rimuove la barra gialla/blu di default di Discord a sinistra */
+}
+
+/* 4. Code Blocks (Blocchi di codice) */
+/* Il cuore di un tema Arch: i blocchi di codice devono essere belli */
+code, pre {
+    background-color: #0d1117 !important; /* Sfondo GitHub Dark */
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0px !important;
+    font-family: 'JetBrains Mono', monospace !important;
+}

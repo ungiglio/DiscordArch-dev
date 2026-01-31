@@ -1,0 +1,59 @@
+/* LAYOUT: MEMBER LIST (Fixed & Minimal) */
+
+/* 1. Sfondo e Larghezza */
+div[class^="membersWrap_"], div[class^="members_"] {
+    background-color: var(--background-secondary) !important;
+    min-width: 240px !important;
+}
+
+/* 2. Avatar: Quadrati (Metodo Sicuro) */
+/* Non tocchiamo foreignObject/mask per evitare glitch SVG */
+div[class^="member_"] img[class^="avatar_"] {
+    border-radius: 0px !important;
+}
+/* Nascondiamo la "maschera" tonda che Discord applica sopra */
+div[class^="member_"] svg[class^="cursor_"] foreignObject {
+    mask: none !important;
+}
+
+/* 3. Status Dots (I "Parallelepipedi") */
+/* Soluzione: Li nascondiamo completamente. Lo stile Arch è pulito. */
+rect[mask*="status"] {
+    display: none !important; 
+}
+/* Opzionale: Se vuoi vedere se uno è online, coloriamo il bordo dell'avatar o il nome */
+div[class^="member_"] div[class^="layout_"]:has(rect[fill*="#23a559"]) img[class^="avatar_"] {
+    /* Esempio: Bordo verde se online (Sperimentale, richiede supporto :has) */
+    border-left: 2px solid var(--online-color) !important; 
+}
+
+/* 4. Layout Riga Membro */
+div[class^="member_"] div[class^="layout_"] {
+    border-radius: 0px !important;
+    background: transparent !important;
+    padding: 2px 8px !important; /* Molto compatto */
+    margin: 0 !important;
+}
+
+/* Hover: Sfondo leggero + Colore Distro */
+div[class^="member_"] div[class^="layout_"]:hover {
+    background-color: rgba(var(--highlight-rgb), 0.15) !important;
+}
+
+/* 5. Nomi Utente */
+div[class^="member_"] span[class^="username_"] {
+    font-family: var(--font-code) !important;
+    font-size: 13px !important;
+    opacity: 0.9;
+}
+
+/* 6. Titoli Gruppi (ADMIN, ETC) */
+h3[class^="membersGroup_"] {
+    color: var(--highlight) !important;
+    font-family: var(--font-code);
+    text-transform: uppercase;
+    font-size: 11px;
+    padding: 15px 10px 5px 10px !important;
+    height: auto !important;
+    letter-spacing: 1px;
+}

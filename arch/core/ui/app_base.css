@@ -1,0 +1,48 @@
+/* UI BASE: ARCH MINIMALISM */
+
+/* 1. SQUADRATURA TOTALE (No Border Radius) */
+/* Forza ogni singolo elemento ad essere un rettangolo perfetto */
+* {
+    border-radius: 0px !important;
+    mask: none !important; /* Rimuove alcune maschere stondate di Discord */
+}
+
+/* Eccezione: Avatar (facoltativo, alcuni preferiscono gli avatar tondi, altri quadrati) */
+/* Decommenta se vuoi avatar quadrati stile retro/irc */
+/* foreignObject { mask: none !important; } 
+div[class^="avatar_"] { border-radius: 0px !important; }
+*/
+
+/* 2. PULIZIA VISIVA (Rimozione "Fluff") */
+/* Rimuove ombre pesanti e gradienti strani di default */
+.theme-dark, .theme-light {
+    --elevation-low: none !important;
+    --elevation-high: 0 4px 0 rgba(0,0,0,0.5) !important; /* Ombra netta, non sfumata */
+}
+
+/* 3. SCROLLBARS "TILING" */
+/* Barre di scorrimento sottili e squadrate */
+::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0px !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--highlight) !important;
+    border-radius: 0px !important;
+}
+
+/* 4. TOOLTIP TECNICI */
+/* Rende i tooltip (i messaggi che appaiono al passaggio del mouse) simili a quelli di un IDE */
+div[class^="tooltip_"] {
+    background-color: var(--background-floating) !important;
+    border: 1px solid var(--highlight) !important;
+    color: var(--text-normal) !important;
+    font-family: var(--font-code) !important; /* Font monospazio */
+    font-size: 12px;
+}

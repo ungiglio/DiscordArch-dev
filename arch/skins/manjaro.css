@@ -1,0 +1,15 @@
+:root {
+    /* --- BRANDING MANJARO --- */
+    --distro-name: "Manjaro";
+    --distro-icon: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Manjaro-logo.svg');
+    
+    /* --- COLOR PALETTE --- */
+    --accent-main: 53, 191, 92;
+    --accent-dim: 26, 30, 28;
+    
+    /* Mapping */
+    --rgb-highlight: var(--accent-main);
+    --rgb-online-color: var(--accent-main);
+    --custom-logo: var(--distro-icon);
+    --custom-title-text: "Manjaro | Enjoy Simplicity";
+}

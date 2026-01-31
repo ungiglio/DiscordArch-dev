@@ -1,0 +1,14 @@
+:root {
+    /* --- BRANDING ENDEAVOUR --- */
+    --distro-name: "EndeavourOS";
+    --distro-icon: url('https://upload.wikimedia.org/wikipedia/commons/e/e7/EndeavourOS_Logo.svg');
+    
+    /* --- COLOR PALETTE (Purple/Pink) --- */
+    --accent-main: 124, 63, 189;         /* #7c3fbd */
+    --accent-dim: 25, 20, 30;
+    
+    /* Mapping */
+    --rgb-highlight: var(--accent-main);
+    --custom-logo: var(--distro-icon);
+    --custom-title-text: "EndeavourOS | Journey";
+}

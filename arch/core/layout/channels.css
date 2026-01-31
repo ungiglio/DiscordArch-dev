@@ -1,0 +1,31 @@
+/* LAYOUT: CHANNELS (Compact & Clean) */
+
+/* Riduciamo l'altezza dei canali per averne di più in meno spazio */
+div[class^="channel_"] {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding: 2px 0 !important;
+}
+
+/* Lo sfondo al passaggio del mouse o selezione */
+div[class^="link_"] {
+    border-radius: 0px !important; /* Squadrato */
+}
+
+/* Canale Selezionato: Bordo sinistro colorato stile "Vim airline" */
+div[class^="modeSelected_"] div[class^="link_"] {
+    background: linear-gradient(90deg, rgba(var(--highlight-rgb), 0.2), transparent) !important;
+    border-left: 3px solid var(--highlight) !important;
+}
+
+/* Canale Hover (Passaggio mouse) */
+div[class^="modeUnread_"] div[class^="link_"]:hover,
+div[class^="modeMuted_"] div[class^="link_"]:hover,
+div[class^="wrapper_"]:hover div[class^="link_"] {
+    background: rgba(255, 255, 255, 0.03) !important;
+    border-left: 3px solid rgba(255,255,255, 0.3) !important;
+}
+
+/* Nascondere icone inutili se vuoi ultra-minimalismo */
+/* Esempio: nasconde l'icona dell'hashtag # */
+/* li[class^="containerDefault_"] div[class^="icon_"] { display: none; } */

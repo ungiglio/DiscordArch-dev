@@ -1,0 +1,23 @@
+/**
+ * @name Arch Linux
+ * @author ungiglio
+ * @version 26.1
+ * @description Un tema minimale e tecnico ispirato ad Arch Linux. I use Arch BTW.
+ * @source https://github.com/ungiglio
+*/
+
+/* ======================================================================== */
+/* 1. SELEZIONE DELLA SKIN */
+/* Scommenta la distro che vuoi utilizzare. Default: Arch */
+/* ======================================================================== */
+
+@import url('http://127.0.0.1:5500/arch/skins/arch.css');
+/* @import url('http://127.0.0.1:5500/arch/skins/manjaro.css'); */
+/* @import url('http://127.0.0.1:5500/arch/skins/endeavour.css'); */
+
+
+/* ======================================================================== */
+/* 2. CARICAMENTO DEL SISTEMA (CORE) */
+/* ======================================================================== */
+
+@import url('http://127.0.0.1:5500/arch/loader.css');

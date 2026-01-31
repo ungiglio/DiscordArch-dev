@@ -1,0 +1,18 @@
+:root {
+    /* --- BRANDING ARCH --- */
+    --distro-name: "Arch Linux";
+    --distro-icon: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Archlinux-icon-crystal-64.svg');
+    --distro-bg: url('https://i.imgur.com/tuo_sfondo_arch_scuro.png'); /* Metti un link valido */
+    
+    /* --- COLOR PALETTE (Arch Blue) --- */
+    --accent-main: 23, 147, 209;         /* #1793d1 */
+    --accent-dim: 27, 34, 45;            /* Sfondo scuro bluastro */
+    --text-primary: 238, 238, 238;
+    
+    /* Ridefinizione variabili core per adattarsi alla skin */
+    --rgb-highlight: var(--accent-main);
+    --rgb-online-color: var(--accent-main); /* Arch usa il blu anche per l'online se vuoi */
+    --custom-logo: var(--distro-icon);
+    --custom-title-text: "Arch Linux | BTW";
+    --custom-image-url: var(--distro-bg);
+}

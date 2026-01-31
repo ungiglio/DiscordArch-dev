@@ -1,0 +1,45 @@
+/* 1. FONTS & SYSTEM CORE IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap');
+
+:root {
+    --font-primary: 'JetBrains Mono', monospace !important;
+    --font-display: 'JetBrains Mono', monospace !important;
+    --font-code: 'JetBrains Mono', monospace !important;
+    --font-headline: 'JetBrains Mono', monospace !important;
+}
+
+body, div, span, h1, h2, h3, h4, textarea, input {
+    font-family: 'JetBrains Mono', monospace !important;
+    letter-spacing: -0.5px;
+}
+
+/* --- Core Logic --- */
+@import url("http://127.0.0.1:5500/arch/core/variables.css");
+
+/* --- Interfaccia Utente (UI) --- */
+@import url("http://127.0.0.1:5500/arch/core/ui/app_base.css");
+@import url("http://127.0.0.1:5500/arch/core/ui/scrollbars.css");
+
+/* --- Layout --- */
+@import url("http://127.0.0.1:5500/arch/core/layout/sidebar.css");
+@import url("http://127.0.0.1:5500/arch/core/layout/channels.css");
+@import url("http://127.0.0.1:5500/arch/core/layout/members.css");
+@import url("http://127.0.0.1:5500/arch/core/layout/pages.css");
+
+/* --- Chat & Forum --- */
+@import url("http://127.0.0.1:5500/arch/core/chat/message_area.css");
+@import url("http://127.0.0.1:5500/arch/core/chat/input_bar.css");
+@import url("http://127.0.0.1:5500/arch/core/chat/forum.css");
+
+/* --- Moduli & Plugin --- */
+@import url("http://127.0.0.1:5500/arch/core/modules/modals.css");
+@import url("http://127.0.0.1:5500/arch/core/modules/plugins.css");
+@import url("http://127.0.0.1:5500/arch/core/modules/popouts.css");
+
+/* --- Addons Personalizzati --- */
+@import url("http://127.0.0.1:5500/arch/core/modules/userlist.css");
+@import url("http://127.0.0.1:5500/arch/core/modules/title_bar.css");
+@import url("http://127.0.0.1:5500/arch/core/modules/mentions.css");
+@import url("http://127.0.0.1:5500/arch/core/modules/extras.css");
+@import url("http://127.0.0.1:5500/arch/core/modules/notifications.css");
+@import url("http://127.0.0.1:5500/arch/core/modules/user_panel_version.css");
