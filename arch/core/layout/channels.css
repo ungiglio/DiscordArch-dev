@@ -25,7 +25,3 @@ div[class^="wrapper_"]:hover div[class^="link_"] {
     background: rgba(255, 255, 255, 0.03) !important;
     border-left: 3px solid rgba(255,255,255, 0.3) !important;
 }
-
-/* Nascondere icone inutili se vuoi ultra-minimalismo */
-/* Esempio: nasconde l'icona dell'hashtag # */
-/* li[class^="containerDefault_"] div[class^="icon_"] { display: none; } */
