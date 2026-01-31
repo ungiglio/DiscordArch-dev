@@ -11,13 +11,13 @@
 /* Scommenta la distro che vuoi utilizzare. Default: Arch */
 /* ======================================================================== */
 
-@import url('http://127.0.0.1:5500/arch/skins/arch.css');
-/* @import url('http://127.0.0.1:5500/arch/skins/manjaro.css'); */
-/* @import url('http://127.0.0.1:5500/arch/skins/endeavour.css'); */
+@import url('https://ungiglio.github.io/DiscordArch-dev/arch/skins/arch.css');
+/* @import url('https://ungiglio.github.io/DiscordArch-dev/arch/skins/manjaro.css'); */
+/* @import url('https://ungiglio.github.io/DiscordArch-dev/arch/skins/endeavour.css'); */
 
 
 /* ======================================================================== */
 /* 2. CARICAMENTO DEL SISTEMA (CORE) */
 /* ======================================================================== */
 
-@import url('http://127.0.0.1:5500/arch/loader.css');
+@import url('https://ungiglio.github.io/DiscordArch-dev/arch/loader.css');

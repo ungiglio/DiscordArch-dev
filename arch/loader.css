@@ -14,32 +14,32 @@ body, div, span, h1, h2, h3, h4, textarea, input {
 }
 
 /* --- Core Logic --- */
-@import url("http://127.0.0.1:5500/arch/core/variables.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/variables.css");
 
 /* --- Interfaccia Utente (UI) --- */
-@import url("http://127.0.0.1:5500/arch/core/ui/app_base.css");
-@import url("http://127.0.0.1:5500/arch/core/ui/scrollbars.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/ui/app_base.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/ui/scrollbars.css");
 
 /* --- Layout --- */
-@import url("http://127.0.0.1:5500/arch/core/layout/sidebar.css");
-@import url("http://127.0.0.1:5500/arch/core/layout/channels.css");
-@import url("http://127.0.0.1:5500/arch/core/layout/members.css");
-@import url("http://127.0.0.1:5500/arch/core/layout/pages.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/layout/sidebar.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/layout/channels.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/layout/members.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/layout/pages.css");
 
 /* --- Chat & Forum --- */
-@import url("http://127.0.0.1:5500/arch/core/chat/message_area.css");
-@import url("http://127.0.0.1:5500/arch/core/chat/input_bar.css");
-@import url("http://127.0.0.1:5500/arch/core/chat/forum.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/chat/message_area.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/chat/input_bar.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/chat/forum.css");
 
 /* --- Moduli & Plugin --- */
-@import url("http://127.0.0.1:5500/arch/core/modules/modals.css");
-@import url("http://127.0.0.1:5500/arch/core/modules/plugins.css");
-@import url("http://127.0.0.1:5500/arch/core/modules/popouts.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/modals.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/plugins.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/popouts.css");
 
 /* --- Addons Personalizzati --- */
-@import url("http://127.0.0.1:5500/arch/core/modules/userlist.css");
-@import url("http://127.0.0.1:5500/arch/core/modules/title_bar.css");
-@import url("http://127.0.0.1:5500/arch/core/modules/mentions.css");
-@import url("http://127.0.0.1:5500/arch/core/modules/extras.css");
-@import url("http://127.0.0.1:5500/arch/core/modules/notifications.css");
-@import url("http://127.0.0.1:5500/arch/core/modules/user_panel_version.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/userlist.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/title_bar.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/mentions.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/extras.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/notifications.css");
+@import url("https://ungiglio.github.io/DiscordArch-dev/arch/core/modules/user_panel_version.css");
